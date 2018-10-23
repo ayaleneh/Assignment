@@ -1,20 +1,22 @@
-let age;
-age=26;
-age=26+1;
-console.log("age is currently "+ age);
-console.log("hello world");
-let string =true;
-
-if (string)
-{
-    console.log("it is currently true");
+prompt("tell me your name");
+alert("let me ask you simple maths");
+let varable=prompt("alright 12+23=");
+if (varable==35){
+  alert("you get it")
 }
-document.writeln("hello there ");
-let pro= prompt("enter your favorite color that you want");
-if (pro=="abebe"){
-    alert("wellcome abebe");
+else {
+  alert("try it again");
+  let choice=prompt("do you want to try again?");
+  if(choice==1){
+    let varable=prompt("alright 11+22=");
+    if (varable==33){
+      alert("you get it");
+    }
+    else{
+      alert("you don't get it")
+    }
+  }
+  else{
+    alert("thanks for your interst");
+  }
 }
-alert("let me give you achoice");
-prompt("choice your preferred subject?");
-confirm("you sure you want this subject");
-//onclick=document.getElementById("demo").innerHTML=Date();
