@@ -15,6 +15,6 @@ if (pro=="abebe"){
     alert("wellcome abebe");
 }
 alert("let me give you achoice");
-prompt("choice your preferred subject or feild?");
+prompt("choice your preferred subject?");
 confirm("you sure you want this subject");
-onclick=document.getElementById("demo").innerHTML=Date();
+//onclick=document.getElementById("demo").innerHTML=Date();
